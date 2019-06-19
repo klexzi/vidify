@@ -1,0 +1,25 @@
+{
+  "name": "vidify",
+  "version": "1.0.0",
+  "description": "Music video app",
+  "main": "index.js",
+  "repository": "github.com/klexzi/vidify",
+  "author": "Kelechi Nwosu",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server.js",
+    "export": "next export"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cross-env": "^5.2.0",
+    "express": "^4.17.1",
+    "googleapis": "^40.0.0",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "semantic-ui-react": "^0.87.2"
+  }
+}
